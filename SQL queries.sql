@@ -41,5 +41,5 @@ SELECT Max(Datediff(day, T1.[date], T1.nextdate))
 FROM   (
         SELECT COALESCE(terminationdate, hiredate)  AS [Date], 
                Lead(COALESCE(terminationdate, hiredate), 1, Getdate()) OVER (ORDER BY COALESCE(terminationdate, hiredate)) AS [NextDate] 
-        FROM   #employees
+        FROM   dbo.employees
         ) AS T1 
