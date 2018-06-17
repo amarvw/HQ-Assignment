@@ -5,6 +5,6 @@ The purpose of this assignemt is to create a comprehensive analysis on the data 
 
 The assignment consists of:
 
-  a. Tableau analysis of the data given in the assignment.\n
-  b. Presentation of the observed data in tableau as well as list if netrices to be monitored.\n
+  a. Tableau analysis of the data given in the assignment.
+  b. Presentation of the observed data in tableau as well as list if netrices to be monitored.
   c. SQL queries based on the two tables provided.
